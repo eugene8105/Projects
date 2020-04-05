@@ -1,0 +1,38 @@
+﻿@{
+    ViewBag.Title = "Main Page";
+}
+
+    <form action="@Url.Action("ProgramOutput","Output")" method="post">
+
+        <table class="table table-bordered table-responsive table-striped table-hover">
+            <tbody>
+                <tr>
+                    <td>
+                        <h3>Open Visual for Robotic program</h3>
+                        <label>Enter program name</label>
+                        <p></p>
+                        <input type="text" name="programName" placeholder="Program name ..." />
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <button type="submit" class="btn btn-default">Open</button>
+    </form>
+<br />
+<br />
+
+<form action="@Url.Action("WorkInstructionOutput", "Output")" method="post">
+    <table class="table table-bordered table-responsive table-striped table-hover">
+        <tbody>
+            <tr>
+                <td>
+                    <h3>Open Work Instruction</h3>
+                    <label>Enter part namber</label>
+                    <p></p>
+                    <input type="text" name="workInstruction" placeholder="Work Instruction ..." />
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <button type="submit" class="btn btn-default">Open</button>
+</form>

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2041
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InstractionsVisualASP", "InstractionsVisualASP\InstractionsVisualASP.csproj", "{FC0E36D0-5AC5-4C88-9B9A-ED935F45F4E7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FC0E36D0-5AC5-4C88-9B9A-ED935F45F4E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC0E36D0-5AC5-4C88-9B9A-ED935F45F4E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC0E36D0-5AC5-4C88-9B9A-ED935F45F4E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC0E36D0-5AC5-4C88-9B9A-ED935F45F4E7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {827D531D-983A-48F5-8E4C-296313FFB24D}
+	EndGlobalSection
+EndGlobal

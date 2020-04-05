@@ -1,0 +1,14 @@
+﻿
+@model InstractionsVisualASP.Models.Output
+
+@{
+    ViewBag.Title = "Work Instruction Output";
+}
+
+
+<div>
+    <iframe src="~/pdf/@Model.FileName" width="100%" height="500">
+        This browser does not support PDFs. Please download the PDF to view it:
+        <a href="~/pdf/(name of the file).pdf">Download PDF</a>
+    </iframe>
+</div>
