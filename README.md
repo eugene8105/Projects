@@ -15,3 +15,9 @@ Old_ABB_excelData_to_WArcData_ConverterAPP:
 
 Read_Input_Output_From_ABB_Controller_APP:
     Test application for reading inputs and outputs from ABB controller.
+
+RCS:
+	RCS vertion 1.0 is monitoring system first implamantation.
+	Will monitor ABB RCS5 controller for any errors and if some errors appeared system will send email notifications with error massage.
+	Set up with two request buttons. When button is pushed it will send slack notification. 
+	Need to set up email configurations and Slack hooks in RCS_Configuration.xml
